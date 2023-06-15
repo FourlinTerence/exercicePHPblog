@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: url(../image/Banniere_oiseau.jpg) center/cover;
+    height: 15rem;
+}
+
+.logonav {
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem 0 0 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    width: 55%;
+    background-color: #FFFFFF;
+    margin: 2rem 2rem 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* CSS de la page d acceuil */
+
+.lesboxacceuil {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box1 {
+    margin-bottom: 5rem;
+    width: 65%;
+    background-color: #C9E7B1;
+    padding-top: 2rem;
+}
+
+
+.box2 {
+    width: 30%;
+}
+
+.lesboxacceuil img {
+    width: 90%;
+}
+
+.lesboxacceuil a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display:block;
+    text-align:center;
+    margin-bottom: 2rem;
+}
+
+/* CSS de la page Carte */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carte {
+    background-color: #C9E7B1;
+    min-height: 40rem;
+    width: 65%;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.cartedescription {
+    min-height: 35rem;
+    width: 30%;
+    background: #C9E7B1;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.commentaire {
+    width: 95%;
+    margin: 1rem auto 0 auto;
+    background: #D9D9D9;
+    padding: 1rem;
+}
+
+/* CSS page connexion*/
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.formulaire {
+    background: #C9E7B1;
+    width: 40%;
+    min-height: 30rem;
+    margin-left: 6rem;
+}
+
+.partie1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.champtext {
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.donnee {
+    width: 50%;
+    align-items: center;
+}
+
+.champ {
+    width: 40%;
+    text-align: center;
+}
+
+.button {
+    display: block;
+   text-align: end;
+   margin-bottom: 1rem;
+}
+
+.flexcontainer img {
+    display: block;
+    margin: auto;
+}
+
+/*CSS page contact */
+
+.contactcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactchamp {
+    width: 50%;
+}
+
+.contactcontainer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centrer {
+    display: block;
+    margin: 2px auto;
+}
+
+/* CSS page formulairearticle */
+
+.titrearticle {
+    text-align: center;
+    height: 3rem;
+    width: 60%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.formarticlecontainer {
+    background: #C9E7B1;
+    min-height: 47rem;
+    width: 80%;
+    margin: 3rem auto;
+    padding-top: 1rem;
+
+}
+
+.image {
+    display: block;
+    height: 20rem;
+    width: 95%;
+    margin: 2rem auto;
+    background-color: #ffffff8d;
+    text-align: center;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: block;
+    height: 30rem;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+
+/* CSS page formulaire carte */
+
+.cartetitrearticle {
+    text-align: center;
+    height: 3rem;
+    width: 60%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.cartecontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.cartecarte {
+    background: #C9E7B1;
+    min-height: 50rem;
+    width: 70%;
+}
+
+.carteinserré {
+    display: block;
+    height: 65rem;
+    width: 95%;
+    background-color: #ffffff8d;
+    margin: 2PX auto;
+    text-align: center;
+}
+
+.description {
+    display: block;
+    height: 3rem;
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cartetext {
+    background: #C9E7B1;
+    min-height: 50rem;
+    width: 20%;
+}
+
+.carteimage {
+    display: block;
+    height: 20rem;
+    width: 95%;
+    background-color: #ffffff8d;
+    margin: 2PX auto;
+    text-align: center;
+}
+
+.cartetexte {
+    display: block;
+    height: 50rem;
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* CSS page information*/
+
+.pageinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infobox {
+    min-height: 20rem;
+    width: 40%;
+    background-color: #C9E7B1;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.infobox a {
+    font-family: 'Montserrat', sans-serif;
+    color: blue;
+    cursor: pointer;
+    display: block;
+}
+
+.infologocoqlakour {
+    text-align: center;
+    height: 35rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.infoarticle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos {
+    padding-left: 10px;
+    margin-bottom: 2rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* CSS page article*/
+
+#article{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0rem;
+    align-items:content;
+    
+
+}
+
+#article p{
+    display: table-cell;;
+    width: 50%; 
+    font-family: 'Montserrat', sans-serif;
+
+}
+#lienarticle{
+    width: 25%;
+    margin: 5rem;
+    background-color: #C9E7B1;;
+    padding-block: 5%;
+    margin-top: 0px;
+
+    
+}
+#lienarticle img{
+    max-width: 100%;
+}
+
+#lienarticle p{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#premier{
+    width: 65%;
+    justify-content: center;
+    background-color: #C9E7B1;
+}
+#premier img {
+    width: 99%;
+    margin: 5px;
+}
+deuxieme{
+    width: 30%;
+    background-color: rgb(131, 236, 82);
+    position: absolute;  
+}
+#deuxieme a{
+    text-align: center;
+    display:block;
+}
+
+/* MENU BURGER */
+
+
+.burger {
+    display: none;
+    background: #C9E7B1;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+    cursor: pointer;
+}
+  
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C9E7B1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #C9E7B1;
+  }
+
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    nav {
+        display: none;
+    } 
+    
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 610px;
+    }
+
+    .formulaire {
+        margin-left: 2rem;
+    }
+
+    .contactbox {
+        width: 90%;
+    }
+
+    .formarticlecontainer {
+        width: 90%;
+    }
+
+    .cartetitrearticle {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    } 
+    
+    .burger {
+        display: block;
+        top: 44px;
+        left: 249px
+    }
+    
+    /* Acceuil */
+    .lesboxacceuil {
+        display: block;
+    }
+
+    .box1 {
+        width: 95%;
+    }
+
+    .box2 {
+        width: 95%;
+    }
+
+    /* Carte */
+
+    .container {
+        display: block;
+    }
+    
+    .carte {
+        min-height: 10rem;
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
+    .cartedescription {
+        min-height: 10%;
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    /* Page connexion */
+    
+    .flexcontainer {
+        display: block;
+    }
+    
+    .formulaire {
+        width: 95%;
+        margin: 1rem auto;
+        padding-top: 1rem;
+    }
+    
+    .champ p {
+        margin-top: 2rem;
+    }
+
+    /* Contact */
+
+    .contactbox {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
+    .contactbox img {
+        max-width: 100%;
+    }
+
+    /* Formulaire article*/
+
+    .formarticlecontainer {
+        width: 95%;
+    }
+    
+    .texts {
+        display: block;
+    }
+    
+    .text {
+        width: 90%;
+    }
+
+    .logocoqlakour {
+        margin: auto;
+    }
+
+    .titrearticle {
+        width: 90%;
+    }
+
+    /* CSS formulaire carte */
+    
+    .cartetitrearticle {
+        width: 95%;
+    }
+    
+    
+    .cartecontainer {
+        display: block;
+    }
+    
+    .cartecarte {
+        width: 95%;
+        margin: 1px auto;
+    }
+    
+    .cartetext {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    /* Information */
+
+    .pageinfo {
+        display: block;
+    }
+    
+    .infobox {
+        width: 90%;
+        margin: 1rem auto;
+    }
+    
+    .infoarticle {
+        display: block;
+    }
+    
+    .infologocoqlakour {
+        height: 20rem;
+        margin: auto;
+    }
+    
+    /* CSS page article*/
+    
+    #article {
+        display: block;
+         }
+        
+        #premier {
+            width: 95%;
+            margin: 1rem auto
+        }
+    
+        #lienarticle {
+            width: 95%;
+            margin: 1rem auto
+        }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    };
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
