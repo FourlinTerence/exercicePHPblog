@@ -2,8 +2,8 @@
     <a href="index.php"><img class="logonav" src="image/coqlakour-removebg-preview.png" alt="Logo coqlakour" /></a>
     <nav>
         <a href="contact.php">Contact</a>
-        <a href="information.phpgit">information</a>
-        <a href="connexion.php">Connection</a>
+        <a href="information.php">information</a>
+        <a href="connexion.php">Connexion</a>
     </nav>
 
     <div class="burger dropdown">
@@ -11,7 +11,7 @@
         <div class="dropdown-content">
             <a href="contact.php">Contact</a>
             <a href="information.php">Information</a>
-            <a href="connexion.php">Connection</a>
+            <a href="connexion.php">Connexion</a>
         </div>
     </div>
 </header>
