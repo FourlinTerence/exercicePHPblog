@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
-    <?php include 'acceuil.php'; ?>
+    <?php include 'INCacceuil.php'; ?>
     
     <?php include 'footer.php'; ?>
     
