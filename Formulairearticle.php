@@ -4,7 +4,7 @@
 
 <body>
   <?php include 'header.php'; ?>
-  <?php include 'Formulairearticle.php'; ?>
+  <?php include 'INCformulairearticle.php'; ?>
   <?php include 'footer.php'; ?>
 </body>
 

@@ -4,7 +4,7 @@
 
 <body>
   <?php include 'header.php'; ?>
-  <?php include 'connexion.php'; ?>
+  <?php include 'INCconnexion.php'; ?>
   <?php include 'footer.php'; ?>
 </body>
 
