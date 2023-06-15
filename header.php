@@ -2,7 +2,7 @@
     <a href="index.php"><img class="logonav" src="image/coqlakour-removebg-preview.png" alt="Logo coqlakour" /></a>
     <nav>
         <a href="contact.php">Contact</a>
-        <a href="information.php">information</a>
+        <a href="information.phpgit">information</a>
         <a href="connexion.php">Connection</a>
     </nav>
 
