@@ -9,9 +9,9 @@
     <div class="burger dropdown">
         <button class="dropbtn"><img src="image/lines_menu_burger_icon_123889_encorepluspetit.png" alt=""></button>
         <div class="dropdown-content">
-            <a href="contact.php">Contact</a>
-            <a href="information.php">Information</a>
-            <a href="connexion.php">Connexion</a>
+            <a href="index.php?page=contact">Contact</a>
+            <a href="index.php?page=information">Information</a>
+            <a href="index.php?page=connexion">Connexion</a>
         </div>
     </div>
 </header>
