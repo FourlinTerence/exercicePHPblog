@@ -1,9 +1,9 @@
 <header>
     <a href="index.php"><img class="logonav" src="image/coqlakour-removebg-preview.png" alt="Logo coqlakour" /></a>
     <nav>
-        <a href="contact.php">Contact</a>
-        <a href="information.php">information</a>
-        <a href="connexion.php">Connexion</a>
+        <a href="index.php?page=contact">Contact</a>
+        <a href="index.php?page=information">information</a>
+        <a href="index.php?page=connexion">Connexion</a>
     </nav>
 
     <div class="burger dropdown">
