@@ -350,6 +350,10 @@ footer {
     align-items: center;
 }
 
+.infoarticle img {
+    max-width: 100%;
+}
+
 .infos {
     padding-left: 10px;
     margin-bottom: 2rem;

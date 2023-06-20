@@ -41,7 +41,7 @@
                 break;
 
             case 'information':
-                include 'INCinformation.php';
+                include 'INCinformationdynamique.php';
                 break;
         }
     } else {
