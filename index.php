@@ -1,4 +1,4 @@
-<?php require "config.php" ?>
+<?php require_once "config.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +51,7 @@
         include 'INCacceuil.php';
     }
     ?>
-
+    
     <?php include 'footer.php'; ?>
 
 </body>

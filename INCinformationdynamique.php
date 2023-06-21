@@ -8,12 +8,12 @@
             <?php
             foreach($pdo->query("SELECT * from article")as $article){
         echo '<div class="infoarticle">
-                <a href="index.php?page=article"><img src="'. $article["Image"] .'" alt=""></a><br>
+                <a href="index.php?page=article"><img src="'. $article["Img"] .'" alt=""></a><br>
                 <div class="infos">
                     <p class="bold">' . $article["Titre"] . '</p>
-                    <p>' . $article["Description"] . '<span class="italic"><a href="index.php?page=article">Lire l article</a></span></p>
+                    <p>' . $article["Descriptions"] . '<span class="italic"><a href="index.php?page=article">Lire l article</a></span></p>
                     <p>' . $article["Categorie"] . '</p>
-                    <p class="italic">'. $article["Date"] .'</p>
+                    <p class="italic">'. $article["date_de_publication"] .'</p>
                 </div>
             </div>';
             }
